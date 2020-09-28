@@ -8,6 +8,7 @@ Seguir a página e adicionar ao favoritos
 Aula 08 concluída em 28/09 às 9:43
 
 Nome da página : MartinellichatBot
+url : https://www.facebook.com/MartinellichatBot-106307567904630
 
 /*
 	CREATE FACEBOOK APPLICATION
