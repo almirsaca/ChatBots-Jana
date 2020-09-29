@@ -1,0 +1,101 @@
+/*
+	CREATE PAGINA NO FACEBBOK
+*/
+
+	https://www.facebook.com/pages/create/
+
+
+	* Aula 08 concluída em 28/09 às 9:43
+
+	Nome da página : MartinellichatBot
+	url : https://www.facebook.com/MartinellichatBot-106307567904630
+
+	Seguir a página e adicionar ao favoritos
+
+
+/*
+	CREATE FACEBOOK APPLICATION
+*/
+
+	https://developers.facebook.com/ - Dica criar um novo usuário no facebook para dev.
+
+	Nome do aplicativo : MartinellichatBot
+	Tipo do aplicativo : (Empresa) Manage Business Integrations
+
+	* Aula 09 concluída em 29/09 às 8:42
+
+/*
+	CREATE AGENT DIALOG FLOW - MartinellichatBot
+*/
+
+	https://dialogflow.cloud.google.com/
+
+	1) Criar um Agente
+
+		Nome : MartinellichatBot
+
+	2) Integrar com o face book messager
+
+		Temos a url de retorno para o app do facebook, o app irá chamar 
+		esta url quando o bot receber alguma mensagem:
+		https://dialogflow.cloud.google.com/v1/integrations/facebook/webhook/de529333-1293-4d69-b305-4e5a568330dc
+
+		Até o momento temos o dialogflow agent e o facebook app criados.
+		Próximo passo é conectá-los.
+	
+	* Aula 10 concluída em 29/09 às 8:58
+
+/*
+ 	CONNECT DIALOGFLOW E FACEBOOK APP
+*/
+
+	Devemos conectar ambos para que eles saibam se comunicar.
+
+	No site de apps do facebbok, clique em configurar (set up) 
+	Messenger e selecionar a página criada em Tokens de acesso.
+	- Em "Gerencie e acesse as conversas da Página no Messenger"
+	deixe ativada.
+
+	*** Agora você vinculou MartinellichatBot ao Facebook
+	Você pode atualizar o que o MartinellichatBot pode fazer nas suas 
+	Configurações de integração de negócios. Para concluir, 
+	o MartinellichatBot poderá exigir etapas adicionais.
+
+	O Token gerado é que o dialogflow precisa.
+
+	*** Esse token será mostrado apenas uma vez, portanto, mantenha-o seguro. Se ele for perdido, 
+	você precisará criar um novo. Qualquer pessoa pode usar esse token para se fazer passar por essa Página, 
+	dependendo das configurações de privacidade do seu aplicativo. Se desejar revogar todos os tokens 
+	gerados anteriormente de uma Página, remova essa Página do aplicativo usando o botão abaixo da tabela.
+
+	TOKEN : EAAIZBZCvV1Wd8BAG0wD44JlwTRZBeoYspCa9bBtApUit7AdHRh462JznkCLx1khkGtJpbpWdZBaj0I1XX0hy0IpAwwAvqND5Pqt3LEjfLE7FoMrsV9NXKmPA2wIrwzr41vDTmkZCZBf29zP81DZA6zOsw1EpxsvGMGWsBd10iZBkaucXyU9mbYQ6cfTXupKDBu0ZD
+
+	Na página do dialogflow configuramos este token em "Token de acesso a página".
+
+	Em "Verify Token", criamos uma super senha! -> EuSouUmBot@Martinelli1970
+
+	Callback URL : https://dialogflow.cloud.google.com/v1/integrations/facebook/webhook/de529333-1293-4d69-b305-4e5a568330dc
+
+	* Facebook app precisar ter o mesmo "Verify Token" do dialogflow. Este token
+	será utilizado para eles verificarem as solicitações.
+
+	Ao iniciar a interação, será criado webhook para o bot processar as 
+	requisições. Ou seja a url de callback está ativa!
+
+	Voltamos ao facebook app e configuramos webhook "Setup Webhook".
+	* Copiar o token de verificação "Verify Token" para usar no facebbok app.
+
+	Em facebbok app configurar a url de retorno (callback url) e a 
+	super senha em verificar token "Verify Token".
+
+	Esta é a parte mais importante, é aqui que a comunicação acontece.
+	O facebook chamará esta url e obterá a resposta do dialogflow.
+
+	E após isto adicionar as assinaturas "subscription fields": 
+	messages e messaging_postbacks
+
+	* Aula 11 concluída em 29/09 às 9:58
+
+/*
+ 	FIRST CONVERSATION WITH YOUR BOT
+*/
