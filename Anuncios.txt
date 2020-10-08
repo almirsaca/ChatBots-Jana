@@ -1,0 +1,41 @@
+01 out 2020
+
+Changes with Fb Messenger & more reviews
+
+Hi,
+
+Facebook is changing fast. One of the changes was in the subscription right for sending messages outside the 24h scope. Facebook is becoming more and more strict.
+
+Only Pages that are registered with the Facebook News Page Index (NPI) will be allowed to send non-promotional news messages.
+
+You can read more about it here:
+
+https://developers.facebook.com/docs/messenger-platform/policy/policy-overview/
+
+I'll update the videos for this course ASAP.
+
+
+
+I’ve got another review from you from the great Udemy instructor. The course is Master the Coding Interview: Data Structures + Algorithms from Andrei Neagoie.
+
+Right now, there is a SALE on Udemy, and you can get the course for only 11.99. Sale ends Oct. 3.
+
+Don’t forget to subscribe to my channel if you have not done it yet:)
+
+Here is the link to the YouTube review:
+
+https://www.youtube.com/watch?v=ep2bHblnJgY&feature=youtu.be
+
+Master the Coding Interview is teaching you how to write readable, scalable code.
+
+You will master how to efficiently work with data structures like arrays, hash tables, linked lists, stacks, queues, trees, and graphs.
+
+You’ll understand recursion, and you’ll be familiar with sorting algorithms, searching, and dynamic programming. Andrei also takes you through the common non-technical questions that you can get on an interview.
+
+In this video, I’ll tell you what I like about the course and what I don’t. All the goods and all the bad so you can decide if this course is for you.
+
+We’ll review the course content, the teacher presentation, and the applicability of the course. In short, will this course really help you get a job?
+
+Jonas Schmedtmann: The Complete JavaScript Course course review
+
+/****************************************************************************/

@@ -1,0 +1,10 @@
+/*
+	CREATE FACEBOOK APPLICATION
+*/
+
+	https://developers.facebook.com/ - Dica criar um novo usuário no facebook para dev.
+
+	Nome do aplicativo : MartinellichatBot
+	Tipo do aplicativo : (Empresa) Manage Business Integrations
+
+	* Aula 09 concluída em 29/09 às 8:42

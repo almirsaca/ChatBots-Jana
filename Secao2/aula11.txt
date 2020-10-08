@@ -1,51 +1,4 @@
 /*
-	CREATE PAGINA NO FACEBBOK
-*/
-
-	https://www.facebook.com/pages/create/
-
-
-	* Aula 08 concluída em 28/09 às 9:43
-
-	Nome da página : MartinellichatBot
-	url : https://www.facebook.com/MartinellichatBot-106307567904630
-
-	Seguir a página e adicionar ao favoritos
-
-
-/*
-	CREATE FACEBOOK APPLICATION
-*/
-
-	https://developers.facebook.com/ - Dica criar um novo usuário no facebook para dev.
-
-	Nome do aplicativo : MartinellichatBot
-	Tipo do aplicativo : (Empresa) Manage Business Integrations
-
-	* Aula 09 concluída em 29/09 às 8:42
-
-/*
-	CREATE AGENT DIALOG FLOW - MartinellichatBot
-*/
-
-	https://dialogflow.cloud.google.com/
-
-	1) Criar um Agente
-
-		Nome : MartinellichatBot
-
-	2) Integrar com o face book messager
-
-		Temos a url de retorno para o app do facebook, o app irá chamar 
-		esta url quando o bot receber alguma mensagem:
-		https://dialogflow.cloud.google.com/v1/integrations/facebook/webhook/de529333-1293-4d69-b305-4e5a568330dc
-
-		Até o momento temos o dialogflow agent e o facebook app criados.
-		Próximo passo é conectá-los.
-	
-	* Aula 10 concluída em 29/09 às 8:58
-
-/*
  	CONNECT DIALOGFLOW E FACEBOOK APP
 */
 
@@ -95,7 +48,3 @@
 	messages e messaging_postbacks
 
 	* Aula 11 concluída em 29/09 às 9:58
-
-/*
- 	FIRST CONVERSATION WITH YOUR BOT
-*/

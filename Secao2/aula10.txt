@@ -1,0 +1,20 @@
+/*
+	CREATE AGENT DIALOG FLOW - MartinellichatBot
+*/
+
+	https://dialogflow.cloud.google.com/
+
+	1) Criar um Agente
+
+		Nome : MartinellichatBot
+
+	2) Integrar com o face book messager
+
+		Temos a url de retorno para o app do facebook, o app irá chamar 
+		esta url quando o bot receber alguma mensagem:
+		https://dialogflow.cloud.google.com/v1/integrations/facebook/webhook/de529333-1293-4d69-b305-4e5a568330dc
+
+		Até o momento temos o dialogflow agent e o facebook app criados.
+		Próximo passo é conectá-los.
+	
+	* Aula 10 concluída em 29/09 às 8:58

@@ -1,0 +1,62 @@
+/*
+ 	FIRST CONVERSATION WITH YOUR BOT
+*/
+
+	Então, agora podemos treinar o agente DialogFlow.
+	Vamos configurar uma primeira conversa, que o nosso bot terá via Facebook Messenger.
+
+	Volte para a guia DialogFlow: Clique em Intents (na barra lateral esquerda) e crie um novo Intent.
+
+	Nas frases de treinamento (Training phrases), adicione: "Diga-me algo inteligente" (Tell me something smart.). 
+	E agora podemos mudar o nome (Intent name) para coisa inteligente (smart-thing), com o traço.
+
+	Aqui você pode ver eventos e contextos. Estes são dois tópicos avançados. Vamos dar uma olhada neles depois.
+
+	Primeiro adicione uma ação (Action and parameters). Uma ação corresponde à etapa que seu aplicativo executará, 
+	quando uma intenção específica foi acionada pela entrada do usuário. Então, uma intenção desencadeia uma ação.
+	As ações podem ter parâmetros para extrair informações das entradas do usuário.
+	Para esta demonstração, você não procura informações adicionais. Mas nós vamos chegar lá depois. Isso é muito legal, você vai ver.
+	E não é tão difícil. Então, vamos fazê-lo. 
+	Escreverei: "something-smart" - Ação: algo inteligente (something-smart). Você pode escrever a mesma coisa ou outra coisa.	
+		** E no nome da ação não use espaços !!
+
+	(1:32 min)
+	E agora vamos adicionar uma resposta de fala (Responses). 
+	Vá para a aba Facebook Messenger. Aqui você pode adicionar novas respostas. 
+	Se você não marcar essa caixa de seleção, que informa ao DialogFlow para usar as respostas da guia
+	Padrão, as respostas que você definir aqui serão enviadas. 
+	Então vamos adicionar um. Clique em "Adicionar respostas" e escolha "resposta de texto" (Text Response).
+	Você também tem aqui Imagem, Cartão e Respostas rápidas. Mas vamos dar uma olhada no resto depois. 
+	Agora você poderá adicionar texto como resposta.
+	"Ok, isso é uma coisa inteligente e um smiley :)" Então, essa é a resposta do bot. Isso é o que o bot irá escrever de volta.
+	*** Você pode adicionar diferentes variantes dessa resposta, para que o bot pareça mais natural.
+	Vamos escrever: uma coisa inteligente.
+	*** Então, nesse caso, o bot escolherá uma dessas duas respostas, para que a conversa soe mais natural. Não dando a mesma resposta a cada vez.
+	E você pode adicionar mais mensagens que seu bot irá devolver. Então não apenas um, mas mais.
+	A resposta do seu agente pode consistir em até 10 mensagens sequenciais.
+	Por enquanto, vamos deixar apenas um. Agora basta clicar em "Salvar", o botão no topo.
+	E agora estamos prontos para falar com o bot. Vamos fazer isso!
+
+	(2:59min)
+	Na barra lateral direita, você pode testar seu bot. Escreva: "Diga-me uma coisa inteligente" para ver o que acontece.
+	Try it now : "Tell me a smart thing." + ENTER
+
+	Nas respostas, selecione Facebook Messenger. Mas há apenas uma resposta. Por quê?
+	Nosso bot não reconheceu a frase. Por quê?
+	Bem, nós escrevemos uma frase diferente ( Training phrases "Tell me something smart." != Tell me a smart thing.).
+	Precisamos adicionar sentença nas "frases de treinamento".
+	O DialogFlow precisa de mais de uma frase para começar a aprender.
+	Recomenda-se que você adicione pelo menos 10 variações de frases.
+	E então o DialogFlow pode pegar novos.
+	Então, vou adicionar outra frase de treinamento (Add user expression). "Tell me a smart thing."
+	Ok, vamos experimentar. Vá para a área de teste novamente. E escreva: Me diga uma coisa inteligente.
+	Está bem. E isso funciona! Resposta de fala: Ok, isso é uma coisa inteligente. 
+	Woohoo Depois que adicionamos mais sentenças, o DialogFlow começará a reconhecer sentenças similares.
+	E o que também podemos ver é o json que será enviado para o Facebook.
+	Então, woohoo! Você acabou de ter sua primeira conversa com seu bot!
+	Bem, isso foi apenas uma conversa de teste no DialogFlow. Queremos ter uma conversa real no Facebook Messenger.
+
+	Então, vá para a sua página do Facebook (página, não aplicação). Em seguida, basta clicar Messenger e localizar
+	seu bot (MartinellichatBot) e enviar uma mensagem para ele. "Tell me something smart."
+ 
+	* Aula 12 concluída em 05/10 às 10:53

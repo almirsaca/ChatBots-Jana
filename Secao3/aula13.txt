@@ -1,0 +1,71 @@
+/*
+	Show chat bot how to answer FAQ
+*/
+
+    Vamos aprender como treinar o bot para responder as dúvidas do usuário.
+
+    Escopo : Loja que vende computadores e telefones da Apple.
+
+    Problema : E agora o nosso telefone continua tocando e nosso e-mail é spam com perguntas do usuário. 
+    Dia após dia, respondendo às mesmas perguntas, repetidamente.
+
+    Solução : Treinar nosso bot recém-criado para responder as perguntas para nós.
+
+    Criar uma intenção (Intentes +) 
+
+    E vamos começar com a primeira pergunta.
+    Então, o que ouvimos com frequência é: ˝Posso usar aplicativos da Mac App Store em mais de um computador?˝
+    "Can I use apps from the Mac App Store on more than one computer?" (Então, vamos inserir isso como "Usuário diz".)
+
+    E precisamos nomear a intenção. ("fac-app-more-devices")
+
+    E a ação de (Action and parameters) : ˝faq-add-devices˝.
+
+    E agora podemos adicionar uma resposta. Vá para a guia do Messenger (FACEBOOK) 
+    e clique (ADD RESPONSES) -> text-reposnse : "Aplicativos da Mac App Store podem ser usados ​​em qualquer Mac, 
+    que você possui ou controla para seu uso pessoal˝. 
+
+    Os usuários também perguntam coisas como: ˝Em quais dispositivos eu posso usar o aplicativo que baixei?"
+
+    Adicionamos perguntas que têm o mesmo significado: 
+
+    "On what device can I use the apps I downloaded?"
+    "Can I use an app on all of my devices?"
+
+    Quanto mais perguntas com o mesmo significado você adicionar, maior será a probabilidade
+    de o DialogFlow reconhecer que o usuário tem a mesma intenção.
+
+    Salvar a intenção.
+
+    (3:49)
+    Então vamos experimentar. Aqui no lado direito você pode digitar uma pergunta.
+
+    "Can I have app on all of my devices?"
+
+    Perfeito! O bot reconheceu a pergunta!!!
+
+    O que também podemos fazer é adicionar respostas diferentes, para que o bot seja mais humano. 
+    Nem sempre respondemos da mesma maneira. Assim, podemos escrever: 
+    ˝Você pode usar o App da Mac Store em qualquer dispositivo que tenha. Sem problemas.˝
+
+    (5:00)
+
+    Nós vamos adicionar um nome de intenção. E será: 'faq-delivery-time'.
+
+    Agora faça algumas perguntas. 
+    ˝Quando o meu Mac será entregue? ˝,
+    ˝Quando é o tempo de entrega? ˝ e 
+    ˝Quando você entregará os fones ouvido que eu pedi"?
+
+    A ação pode ser (action name): 'faq-delivery'
+
+    E a resposta (RESPONSES). Vá para o separador do Messenger. 
+    E clique em "Adicionar conteúdo da mensagem" (text-reposnse):
+
+    ˝O tempo esperado de entrega é de 3 dias úteis após o pagamento recebido.˝
+    ˝ Espere que o prazo de entrega seja de 3 dias úteis após o pagamento recebido.˝
+    ˝ Damos o nosso melhor e entregamos as mercadorias em 3 dias úteis ou antes.˝
+
+    Salvamos a intenção e testamos : "When will Iphome get delivered?"
+
+	* Aula 13 concluída em 05/10 às 18:21
