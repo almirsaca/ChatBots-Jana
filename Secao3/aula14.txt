@@ -1,0 +1,21 @@
+/*
+    How to test and train a ChatBot / Add friends as testers
+
+    Resources : https://cloud.google.com/dialogflow/docs/training
+
+    Objetivo tornar o bot mais inteligente
+*/
+
+    Fazer o máximo de perguntas ou frases prossível. Podemos incluir
+    outras pessoas para isto. Assim teremos variações de perguntas entre
+    as pessoas, uma vez que podemos ter qustões ou frases que não 
+    considerariamos prossível (Bendito usuário - kkkk)
+
+    Para add pessoas para testes:
+
+    https://developers.facebook.com/apps/632214714145247/dashboard/
+
+    Facebbok dev account, em funções (roles) adicionamos usuários de testes "Adicionar testadores" (Add Testers).
+    Obs.: Estes devem ser seus amigos na conta de dev do facebook e acessar o DioalogFlow e aceitar o convite para tester!!!
+
+   	* Aula 14 concluída em 13/10 às 10:00

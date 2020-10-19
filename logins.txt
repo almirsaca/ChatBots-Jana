@@ -1,0 +1,41 @@
+/*
+	CONTA DEV 1
+/*
+
+Conta de email - Dev
+almir developer
+almir.devapp@gmail.com
+Itaborai1187@87
+------------------------------------------------
+
+Facebook developer account
+almir devapp
+almir.devapp@gmail.com
+Itaborai1187@87
+------------------------------------------------
+
+/*
+	CONTA DEV 2
+/*
+
+Conta de email 2 - Dev
+rogerio devapp
+devapprogerio@gmail.com
+Itaborai1187@87
+
+------------------------------------------------
+
+Facebook developer account
+rogerio devapp
+devapprogerio@gmail.com
+Itaborai1187@87
+
+------------------------------------------------
+/*
+	DIALOG FLOW
+*/
+
+https://dialogflow.cloud.google.com/#/login
+almir developer
+login conta do google -> almir.devapp@gmail.com
+------------------------------------------------
