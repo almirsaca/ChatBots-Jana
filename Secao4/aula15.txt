@@ -1,0 +1,85 @@
+/*
+    Bot para entrevista de emprego - job enquiry
+
+    https://cloud.google.com/dialogflow/docs/entities-overview
+*/
+
+    Objetivo : Treinar o bot para entrevista e coletar as informações 
+    básicas e depois podemos decidir quem entrevistar. 
+
+    Informar o bot das vagas disponiveis. Iremos usar Entidades (Entities)
+
+    - Entidades são objetos, mtas vezes especificos de um domínio, como forma de mapear
+    frases de linguagem natural para as frases canonicas, que capturam seu significado.
+    Podemos pensar Entidades como um ajudante com intenções.
+    
+    Tipo de entidade: define o tipo de informação que você quer extrair da entrada do usuário. 
+    Por exemplo, vegetal pode ser o nome de um tipo de entidade.
+
+    Entrada de entidade: para cada tipo de entidade, há muitas entradas de entidade. 
+    Cada entrada de entidade oferece um conjunto de palavras ou frases que são consideradas equivalentes. 
+    Por exemplo, se vegetal for um tipo de entidade, será possível definir estas três entradas:
+
+        cenoura,cebolinha e pimentão
+
+    Ajudam nas intenções do usuário, são as palavras que você deseja que o dialogflow observe e lembre-se.
+
+    (1:07)
+    Na aula vamos adicionar vagas de empregos. 
+
+    Criar um entidade (Entity) - Nome vaga-emprego (job-vacancy).
+
+    Vagas   
+        contador (reference value) e podemos adicionar sinominos (synonym).
+
+        reference value - synonym
+
+        Accountant      - Bookkeeper
+        Shop assistant  - Sales person, Sales rep, Sales representative, Shop boy, Shop girl
+
+    (2:12)
+
+    Vamos adiconar um intenção (Intents) "job".
+
+    "Is there a job vacancy in your store?"
+    "Do you have a job openning?"
+    "Are you looking for new employees?"
+    "I'm looking for new career oportunity."
+    "Can I start a new carrer in your company?"
+
+    E agora vamos adicinar a resposta na guia do facebook 
+    
+    Adicionar uma ação (Action and parameters).
+
+    Name : "job-enquiry"
+
+    E um resposta (Response) "text-response"
+
+    "We're currently looking for new staff. We need an assistant in our store. And we're looking for new accountant. Would you like to apply for the assistant or accountant?"
+
+    "You've come in the rigth time. We're just looking for a new sales assistant and we need a good accountant. Please select job position assistant or accountant?"
+
+    (4:40)
+
+    - E o que podemos fazer é facilitar para os usuários e fornecer respostas rápidas para que eles selecione de forma rápida a vaga de emprego.
+    O que faremos é "Adicionar novo conteúdo da mensagem" e selecionar respostas rápidas. 
+    Com isso definir um titulo (TITLE) "Empregos" e adicionar o "contador", "assistente de vendas" e "sem interesse".
+
+    ADD RESPONSE -> Quick replies -> SAVE e testar no proprio dialogflow.
+
+    (5:30)
+
+    Do you have a job vacancy? (dialogflow)
+
+    Do you have a job vacancy right now? (messenger)
+
+
+
+
+
+
+
+
+
+
+
