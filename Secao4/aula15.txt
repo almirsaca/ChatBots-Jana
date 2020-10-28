@@ -2,9 +2,15 @@
     Bot para entrevista de emprego - job enquiry
 
     https://cloud.google.com/dialogflow/docs/entities-overview
+
+    O Dialogflow fornece entidades predefinidas do sistema que podem corresponder a muitos tipos comuns de dados.
+    Por exemplo, há entidades do sistema que correspondem a datas, horários, cores, endereços de e-mail e assim por diante. 
+    Também é possível criar suas próprias entidades personalizadas para corresponder a dados personalizados. 
+    Por exemplo, defina uma entidade vegetal que possa corresponder aos tipos de vegetais disponíveis para compra com um agente de mercearia.
+
 */
 
-    Objetivo : Treinar o bot para entrevista e coletar as informações 
+    Objetivo : Treinar o bot para coletar as informações 
     básicas e depois podemos decidir quem entrevistar. 
 
     Informar o bot das vagas disponiveis. Iremos usar Entidades (Entities)

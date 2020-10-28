@@ -1,0 +1,15 @@
+/*
+    Teach Bot to take candidates info
+
+    https://cloud.google.com/dialogflow/docs/intents-actions-parameters
+*/
+
+    Objetivo : Treinar o bot para fazer uma entrevista simples
+    para uma vaga. 
+
+    Construimos um diálogo. E vamos constuí-lo usando contextos.
+
+    stop class on (9:10)
+
+
+    
