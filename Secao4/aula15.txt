@@ -40,8 +40,8 @@
 
         reference value - synonym
 
-        Accountant      - Bookkeeper
-        Shop assistant  - Sales person, Sales rep, Sales representative, Shop boy, Shop girl
+        Accountant      - Accountant, Bookkeeper
+        Shop assistant  - Shop assistant, Sales person, Sales rep, Sales representative, Shop boy, Shop girl
 
     (2:12)
 

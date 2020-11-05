@@ -4,12 +4,76 @@
     https://cloud.google.com/dialogflow/docs/intents-actions-parameters
 */
 
-    Objetivo : Treinar o bot para fazer uma entrevista simples
-    para uma vaga. 
+    Objetivo : Treinar o bot para fazer uma entrevista simples para uma vaga. 
 
-    Construimos um diálogo. E vamos constuí-lo usando contextos.
+    Construimos um diálogo. E vamos constuí-lo usando contextos. Sem contexto, as setenças 
+    ficariam isoladas no nosso fluxograma (elo de ligação).
+    No fluxograma podemos ter muitos ramos. Portanto as intenções no agente devem
+    ser projetadas para que elas sigam uma a outra na ordem correta durante uma conversa.
 
-    stop class on (9:10)
-
-
+    Criamos o contexto out job para a intents job
     
+    Intents : job
+    Contexts
+        input : 
+        output : job
+
+
+    Criamos a intenção para coletar a informação da vaga de emprego.
+
+    Intents : job-apply
+
+    Contexts
+        input : job (contexto gerado da conversa anterior)
+        output : job_application
+
+    Training phrases
+
+        I want to apply as an accountant.
+        I'm interester in a sales job.
+        Please take my application for a sales assistant.
+        Yes, as an accountant.
+        I want to apply now.
+        Yes I'm interested.
+
+    Action and parameters : job-application
+
+        * DG irá fazer esta pergunta somente se o usuário não especificar
+        a vaga de emprego desejada! Caso contrário irá pro nó (input : job_application)
+
+        name          entity         value          prompt
+        job-vacancy - @job-vacancy - $job-vacancy - For what position do you want to apply?
+                                                    What job are you interested in?
+ 
+
+    Responses
+
+        Great! I'll need some information from you. Write OK, when you're ready.
+
+
+    Criamos a intenção para coletar as informações do usuário.
+    Para isto criamos os parametros e suas respectivas perguntas.
+
+    Intents : job-application-details
+
+    Contexts
+        input : job_application
+
+    Action and parameters : detailed-application
+
+        name                entity        value        prompt
+        user-name           - @sys.any    -            - Can you write your name? 
+                                                         Tell me your name.
+        previous-job        - @sys.any    -            - What is your current job position?
+                                                         Where are you working now?
+                                                         What is your current job title?
+        years-of-experience - @sys.any    -            - How many years of experience do you have?
+                                                         Tell me how many years of experience in the field do you have?        
+        phone-number        - @sys.any    -            - Tell me your phone number.
+                                                         At what number can we reach you?
+                                                         Can you give me your phone number so we can call you?
+
+    Responses
+
+        Thank you $user-name for your application. My boss will call you ASAP. Have a great day.
+        Your application for the #job_application.job-vacancy will be processed as soon as possible. We'll contact you shortly.

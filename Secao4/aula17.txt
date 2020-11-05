@@ -1,0 +1,25 @@
+/*
+    Test your chatbot job interview test
+*/
+    Criamos um dialogo para a entrevista de emprego.
+
+    Realizar o teste no proprio DialogoFlow
+
+    "Is there a job opening in your store?"
+
+    Intenção : job
+    Ação : job-enquiry
+
+    "Yes, I want to apply." * Não mencionamos a vaga!
+
+    "I want to apply as a bookkeeper."
+
+    "OK"
+
+    "Xavier da Silva"
+
+    "Bookkeeper at tata&co"
+
+    "5"
+
+    "056473827365787"

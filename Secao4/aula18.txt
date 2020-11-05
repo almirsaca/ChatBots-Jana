@@ -1,0 +1,38 @@
+/*
+    No application context
+*/
+
+    Usuário sem interesse ou pretende se inscrever mais tarde.
+
+    Nestes casos não queremos ir para os detalhes da vaga.
+
+    Vamos adiconar outra intenção.
+
+    Intents : no-job-apply
+
+    Contexts
+        input : job (contexto gerado da conversa anterior)
+        output : 
+
+    Training phrases
+        
+        No.
+        No right now.
+        I won't apply.
+        Nothing interesting.
+        I'll apply later.
+        Maybe later.
+
+    Action and parameters : no-job-apply
+
+        No parameters
+
+    Responses
+
+        No problem. Talk to me again and if we have more job opening I'll let you know.
+        Ok. we can talk another time.
+
+
+    E vamos testar nosso bot!        
+
+    "Give me job openings."
