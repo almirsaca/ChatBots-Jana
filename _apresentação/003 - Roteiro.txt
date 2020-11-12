@@ -1,0 +1,6 @@
+* Criamos um bot para a entrevista de emprego.
+do grupo talkcommunication , vamos testar!!!
+
+	try now no console
+	
+	

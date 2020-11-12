@@ -11,6 +11,21 @@
     as pessoas, uma vez que podemos ter qustões ou frases que não 
     considerariamos prossível (Bendito usuário - kkkk)
 
+    Training : Ajuda-o a ajudar o seu agente, que é o bot a melhorar.
+    A ferramenta Treinamento foi projetada para revisar conversas com seu agente e 
+    usá-las para melhorar a precisão da classificação.
+
+    Quanto mais exemplos relevantes e diversificados forem adicionados aos intentos,
+    melhores resultados de classificação você obterá do seu agente.
+
+    Então, basicamente você pode ver, onde seu bot errou e mostrar a ele como fazer melhor.
+
+    Histoty: O que podemos ver aqui é toda a história dos chats que aconteceram com o nosso bot.
+
+    Se o DialogFlow não conseguiu encontrar intenções para eles. Você pode atribuir entradas não 
+    correspondentes às intenções de duas maneiras: Você pode adicionar entradas a uma das intenções 
+    existentes ou pode criar uma nova intenção com essa entrada.
+
     Para add pessoas para testes:
 
     https://developers.facebook.com/apps/632214714145247/dashboard/

@@ -1,0 +1,74 @@
+/*
+    Rich messages Part 1
+    https://cloud.google.com/dialogflow/docs/intents-rich-messages
+    https://developers.facebook.com/docs/messenger-platform/send-messages/template/generic
+
+*/
+
+    DialogFlow suporta mensagens avançadas prontas para uso.
+    As intenções podem retornar mais de uma resposta e essas
+    não são texto, mas também imagens, cartões, resposta rápidas e
+    customizadas.
+
+    Vamos adiconar a intenção Surpresa.
+
+    Intents : surpresa
+
+    Training phrases :
+
+        surpreenda me
+
+    Responses :
+
+        Texto : Para você!
+
+        Imangens : * Não podemos carregar imagens no DialogFlow,
+        devemos armazenar em outro servidor e passar a url da imagem.
+
+        https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQePsim-at1xBgNJZ6NNeBq58L7S0A4KIB0hg&usqp=CAU
+
+
+    (3:30)
+
+    Um recuros útil é "respostas rápidas". Isso economiza o tempo do usuário ao escolher
+    entre as opções conhecidas.
+
+    Quando uma resposta rápida é clicada, ela será removida do bate-papo. Então o usuário 
+    pode escolher apenas uma opção.
+
+    Essa é a diferença entre os botões. As respostas rápidas desaparecerão uma vez gravadas
+    e os botões não.
+
+    Responses :
+
+        Respostas rápidas - (Quick Replies)
+
+        Titulo : O que você prefere?
+        Opções : Estar bem
+                 Ser elegante 
+                 Ser inteligente
+                 Ser rico.
+
+
+    (5:14)
+
+    Cartões - Os cartões no DialogFlow contêm os mesmos elementos 
+    do modelo genérico, exceto default_action.
+    
+    Além disso, os botões no DialogFlow são limitados.
+
+    * Mas vamos dar uma olhada em como resolver esse problema um pouco mais tarde.
+    Primeiro, vamos ver o que o DialogFlow oferece imediatamente.
+
+    Card : https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUhjDThAwzoMED3NEGpdINbGoYJrS8U0aqgg&usqp=CAU
+
+
+    * A imagem precisaria ter a proporção 1. 91: 1, então seria exibido melhor.
+
+    ** Bem, nós dissemos que respostas rápidas acabaram quando você bateu em uma resposta.
+    A mesma coisa acontece se você digitar outra coisa ou adicionar qualquer outro conteúdo.
+    Eles se foram quando algo mais acontece. Então, o que vamos fazer é colocá-los por último.
+
+
+
+

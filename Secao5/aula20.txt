@@ -1,0 +1,49 @@
+/*
+    Rich messages Part 2
+
+    https://developers.facebook.com/docs/messenger-platform/reference/messenger-profile-api/domain-whitelisting/
+    https://developers.facebook.com/docs/messenger-platform/send-messages/template/generic
+*/
+
+    E se nós quiséssemos ter dois ou três botões? O que faríamos então?
+    Podemos adicionar respostas customizadas. Vamos fazer isso. 
+    Clique em "ADD RESPONSES" e selecione "Custom payload".
+
+    {
+    "facebook": {
+        "attachment": {
+        "payload": {
+            "elements": [
+            {
+                "buttons": [
+                    {
+                        "title": "View Website",
+                        "type": "web_url",
+                        "url": "https://petersfancybrownhats.com"
+                    },
+                    {
+                        "title": "Another link",
+                        "type": "web_url",
+                        "url": "https://www.uol.com.br/"
+                    },
+                    {
+                    "type":"phone_number",
+                    "title":"Call me",
+                    "payload":"1134710019"
+                    }                
+                ],
+                "subtitle": "We have the right hat for everyone.",
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTc38delFhCsjr1QlyXLO875nZRkz2A-7xxGA&usqp=CAU",
+                "title": "Welcome!",
+                "default_action": {
+                "type": "web_url",
+                "url": "https://petersfancybrownhats.com/view?item=103"
+                }
+            }
+            ],
+            "template_type": "generic"
+        },
+        "type": "template"
+        }
+    }
+    }

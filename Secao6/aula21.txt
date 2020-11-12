@@ -1,0 +1,7 @@
+/*
+    Extra DialogFlow features
+*/
+
+    Agentes pré-definidos é uma coleção de agentes desenvolvidos na plataforma.
+
+    Assistente de navegação pré definido.

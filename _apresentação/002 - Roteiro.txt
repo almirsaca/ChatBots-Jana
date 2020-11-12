@@ -1,0 +1,54 @@
+aula16.txt
+
+Intenção : vaga-pretendida-info
+
+	context input : vaga-selecionada
+	
+	Frases : 
+
+	OK
+	Okay
+	Pronto!
+
+	** E vamos adicionar parâmetros. 
+	Primeiro um será o primeiro nome. 
+	Nomeie user-name e no final é 'sys.any'. 
+	Para dar oportunidade aos importados!!!
+	Lista de nomes do DG é limitada ao ingles!!!
+	se não o bot não faz a associação ....
+	
+	O bot tbém pode entrar em loop... pois não irá reconhecer
+	
+	Tornar todos obrigatórios
+
+	Action e parameters: info-candidato
+	
+	nome-candidato - @sys.any
+	
+	Você pode escrever seu nome?
+	Me diga seu nome.
+
+	emprego-anterior
+
+	Qual é o seu cargo atual?
+	Onde você está trabalhando agora?
+	Qual é o seu cargo atual?
+
+	tempo-experiencia
+
+	Quantos anos de experiência você possui?
+	Diga-me quantos anos de experiência você tem na área?
+
+	telefone
+
+	Me diga seu número de telefone.
+	Em que número podemos entrar em contato com você?
+	Você pode me dar seu número de telefone para que possamos ligar para você?
+	
+	Respostas :
+	
+		Obrigado $nome-candidato por seu interesse. Meu chefe ligará para você o mais rápido possível. Tenha um ótimo dia.
+        Sua inscrição para a #vaga-selecionada.vagas-tech será processada assim que possível. Entraremos em contato em breve.
+	
+	
+

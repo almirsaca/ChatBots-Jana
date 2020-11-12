@@ -1,0 +1,43 @@
+aula15.txt
+
+Treinar o bot para entrevistas
+
+Milhares de pessoas irão se escrever , então usaremos o bot para coletar
+as informações básicas e depois o Vdz e Rominho irão decidir quem entrevistar.
+
+1) Primeiro informamos ao bot as vagas disponiveis criamos entidades 
+
+	Entidade nome : vagas-tech
+
+	DEV			- programador;desenvolvedor;analista de sistemas;computação;codificador
+
+	DBA         - administrador banco de dados;estrutura de banco de dados;SGBDs;backup;integridade do banco de dados
+	
+2) Criar a intenção : emprego
+
+	Context output : emprego
+
+	Frases : 
+	
+	Tem vaga de emprego na empresa?
+	Você tem uma vaga de emprego?
+	Você está procurando novos funcionários?
+	Estou procurando emprego.
+	Posso começar uma nova carreira na sua empresa?
+
+3) Ação : consulta-emprego
+
+
+4) Criar as respostas
+
+	No momento, estamos procurando por novos funcionários. Precisamos de um desenvolvedor e um Administrador banco de dados. Você gostaria de se candidatar a DEV ou DBA?
+	
+	Você apareceu na hora certa. Estamos procurando um desenvolvedor e um Administrador banco de dados. Por favor, selecione DEV ou DBA?
+	
+	* Podemos adicionar respostas rápidas (Quick Replies)
+	
+	Titulos empregos
+		
+		DEV
+		DBA
+		NDA

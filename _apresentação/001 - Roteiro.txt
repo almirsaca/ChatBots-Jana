@@ -1,0 +1,64 @@
+aula16.txt
+
+Ensinar o bot pegar informações dos candidatos
+
+O que precisamos é construir um diálogo. E nós vamos construí-lo usando os contextos.
+
+Sem contexto, cada sentença estaria completamente isolada da anterior.
+Quando uma caixa de diálogo é criada, podemos ter muitos ramos possíveis. 
+
+Portanto, as intenções em um agente devem ser projetadas para que elas sigam 
+uma à outra na ordem correta durante uma conversa.
+
+* A melhor maneira de demonstrar como isso funciona é construir uma conversa ao vivo e passo a passo.
+	
+Esta será uma intenção de vaga pretendida.	
+Ela precisa ser nomeada de uma forma que a gente saiba 
+o que ele significa.
+
+Nova Intenção : vaga-pretendida
+
+	context input : emprego
+	
+	* Então, o contexto IN será "emprego" porque a conversa anterior foi trabalho. 
+	E nós definiremos o contexto de saída como vaga-selecionada.
+	
+	context output : vaga-selecionada
+	
+	Frases : 
+
+	* Aqui é onde coletaremos as informações do usuário.
+	
+	Quero me candidatar como desenvolvedor.
+	Estou interessado em um trabalho com banco de dados.
+	Por favor, pegue minha inscrição para programador.
+	Sim, como administrador de banco de dados.
+    Eu quero me inscrever agora.
+    Sim, estou interessado.
+	Lógico!!! É o meu sonho trabalhar nesta empresa!
+	
+	
+	** E sim, o DialogFlow é inteligente e sabe que esta 
+	é uma das entidades que definimos anteriormente. 
+	Isso agora também será armazenado como um "parametro".
+	
+	Action e parameters: vaga-selecionada
+	
+	** Parametro "vagas-tech" precisamos saber em que posição eles se candidatarão. 
+	Essa é uma informação importante. Se o usuário esquecer de informar, precisamos
+	perguntar a ele ou ela.
+	
+	Set to required
+	
+		PROMPTS:
+		
+		Para qual vaga você deseja se candidatar?
+		Em qual trabalho você está interessado?
+	
+	Respostas :
+	
+		Ótimo! Vou precisar de algumas informações suas. Escreva OK, quando estiver pronto.
+		
+	** Agora temos o contexto de saída (vaga-selecionada), vamos criar uma nova intenção.
+	
+	

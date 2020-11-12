@@ -1,0 +1,33 @@
+aula18.txt
+
+ Sem interesse..
+ 
+ Bem, nesse caso, não queremos ir para vaga-pretendida.
+ 
+ O que faremos é adicionar outra intenção.
+ 
+ E isso será para o usuário do caso não se inscrever para o trabalho agora.
+ 
+ Intenção : sem-interesse
+
+ Context input : emprego
+ 
+ Frases :
+ 
+	NDA
+	Não
+	Agora não
+	Eu não vou me inscrever
+	Nada interessante
+	Vou me inscrever mais tarde
+	Talvez mais tarde
+	Vou vender pastel
+	
+ Action : sem-interesse
+ 
+  ** Não precisamos de parametros, mas podiamos ter... feedback por exemple...
+  
+  Resposta:
+  
+	Sem problemas. Fale comigo de novo e se tivermos mais vagas de emprego, avisarei.
+    Está bem. podemos conversar outra hora.
