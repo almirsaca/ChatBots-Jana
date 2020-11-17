@@ -2,4 +2,81 @@
     Follow-up intents
 */
   
-  Parei nesta aula!!!
+  Veremos as intenções de acompanhamento, significa que eles se referem à intenção 
+  anterior ou, se preferir, à intenção do pai.
+  
+  Na conversa, costumamos dizer coisas como: 
+
+  'Você pode me mostrar mais?' ou
+  'Vá para o próximo por favor!' ou
+  'Você pode repetir?' ou
+  'Não, eu não quero isso. Cancelar.'
+
+  DialogFlow facilita a criação de um fluxo como esse.
+
+  Se usarmos as intenções de acompanhamento, não precisamos criar contextos 
+  e ficaremos preocupados se os configurarmos corretamente.
+
+  O DialogFlow faz isso por nós. Então, em que casos usaríamos as intenções de acompanhamento?
+
+  Bem, nos seguintes casos de uso. Assim, a qualquer momento, um usuário dá uma resposta afirmativa, 
+  resposta negativa, quer fazer algo mais tarde, cancela a coisa que ele ou ela está fazendo, 
+  como se candidatar a um emprego no nosso caso, se ele ou ela quer mais informações, vá para o 
+  item seguinte ou anterior, repita ou selecione um número.
+
+  Podemos até criar uma intenção de acompanhamento personalizada ou configurar uma intenção de fallback, 
+  que é acionada se nada mais existir.
+
+  Vamos imaginar esse cenário. Então, nós temos uma grande campanha agora. O iPhone xxx está fora e é incrível!
+  E as pessoas estão pedindo como loucas. Graças a Deus, temos o bot para nos ajudar a processar pedidos.
+  E o que queremos fazer, até aumentar as vendas, é adicionar uma oferta especial por 5 anos de garantia, por apenas um dólar.
+  Sim, é uma história inventada. Então, o que faríamos primeiro, é criar uma entidade.
+
+  Entidade : iphonexxx
+  sinominos : IphoneXXX , Latest Iphone e Iphone XXX
+
+  intenção : buy.iphonexxx
+
+  frases de treinamento : I want to buy the latest Iphone
+
+  acao : buy.iphonexxx
+
+  resposta: Would like extendended warranty for just 1 dollar available only this week?
+
+  Salve a intenção e vá para as intenções e passe o mouse sobre ela. 
+  Você pode ver "Add Follow-up intents".
+
+  Então, clique nele. Nós vamos adicionar um sim e um não. 
+  
+  Então, primeiro clique em Sim.
+  - E tudo está configurado. O contexto e frases de treinamento já estão aqui.
+
+  Você pode simplesmente adicionar uma resposta de texto. 
+  Então, na aba do Messenger, adicione uma resposta de texto, como esta.
+
+  resposta : You will receive your phone with an extended warranty in three work days.
+
+  Salve a intenção
+
+  Então, vá para intenções. Expanda as intenções de acompanhamento.
+  E aqui está! Como você pode ver até mesmo as intenções de acompanhamento, pode ter uma intenção de acompanhamento.
+
+  Agora adicione outro. Então aqui. E eu vou escolher não. 
+  E agora adicione uma resposta. Na guia Messenger, adicione uma resposta de texto.
+
+  resposta : Okay, great! You will receive your phone in three business days.
+
+  Salve a intenção
+
+  em try it now : I want to buy iPhone xxx
+
+  Funciona!!!
+
+
+  Então, se tivéssemos um aplicativo backend, essa é a ação que pegaríamos e processaríamos. 
+  E eu vou te ensinar como fazer isso depois. OK?
+
+  ACTION
+  buyiphonexxx.buyiphonexxx-yes
+
+* Aula 22 concluída em 17/11 às 9:55
