@@ -1,0 +1,13 @@
+/*
+    DialogFlow intents priority
+*/
+
+    Se houver algumas frases que possam corresponder a mais de uma intenção, você poderá atribuir 
+    uma prioridade maior àquela que deseja atribuir primeiro. Isso é muito fácil de fazer.
+
+    Basta clicar neste círculo, ao lado do nome da intenção, e selecionar uma prioridade no menu suspenso.
+
+    Você pode escolher entre as mais altas para ignorar.
+
+    * Aula 23 concluída em 19/11 às 13:35
+    

@@ -1,0 +1,9 @@
+DialogFlow tutorial FREE ebook
+For my students, I’ve created a FREE ebook about DialogFlow.
+
+In it, we cover all the DialogFlow building blocks, from intents, entities, contexts to reading parameters from a conversation and saving it to a database. 
+We work on examples, and in the process, I show you tips and tricks.
+
+Book has over 200 pages of content. It will take you from beginner to master. You can get it by talking to my Messenger bot.
+
+* Aula 24 concluída em 19/11 às 13:45
