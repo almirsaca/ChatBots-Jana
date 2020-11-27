@@ -1,0 +1,13 @@
+/*
+    Introduction to app review - Steps to take
+*/
+
+    Aqui vai o novo passo. Precisamos disponibilizar nosso bot para todos.
+    Sua Página do Facebook está publicamente disponível, mas a única pessoa 
+    que esse robô responderá no momento, é você, porque você é o administrador. 
+    Para fazer com que este robô responda a todos, você precisa ter seu aplicativo 
+    do Facebook aprovado. Isso pode levar várias semanas, mas geralmente leva apenas alguns dias.
+
+    Nesta seção, passaremos pelo processo de revisão do aplicativo.
+
+    O Facebook precisa ter certeza de que você usará os dados de maneira aprovada.

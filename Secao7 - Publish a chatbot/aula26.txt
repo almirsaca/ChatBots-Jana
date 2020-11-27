@@ -1,0 +1,7 @@
+/*
+    Get the pages_messaging right
+*/
+
+    O único direito que realmente precisamos fazer para o nosso Chatbot funcionar é o direito de pages_messaging.
+    O Pages_messaging permite que nosso aplicativo envie e receba mensagens usando a página do Facebook.
+    Sem isso, nosso bot não pode enviar mensagens. 
