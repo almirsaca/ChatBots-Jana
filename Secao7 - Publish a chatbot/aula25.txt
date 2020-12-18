@@ -1,5 +1,7 @@
 /*
     Introduction to app review - Steps to take
+
+    Facebook app review process
 */
 
     Aqui vai o novo passo. Precisamos disponibilizar nosso bot para todos.
@@ -11,3 +13,60 @@
     Nesta seção, passaremos pelo processo de revisão do aplicativo.
 
     O Facebook precisa ter certeza de que você usará os dados de maneira aprovada.
+
+    Nesta seção, passaremos pelo processo de revisão do aplicativo.
+
+    O Facebook precisa ter certeza de que você usará os dados de maneira aprovada.
+
+    E então você pode mudar para o modo ao vivo. E todas as pessoas poderão se comunicar com seu Chatbot.
+
+    O Chatbot responderá às mensagens que receber na sua página do Facebook.
+
+    Então, o que precisamos fazer para passar pela revisão do processo.
+
+    Em geral, o processo envolve a especificação do tipo de dados, seu aplicativo solicitará aos
+    usuários e descreverá como você os usará. Por exemplo: se você deseja obter o sexo do usuário, 
+    é necessário especificar em que caso você usará essa permissão.
+
+    Permissoes e recursos:
+
+    Mas como somos um bot, existe apenas uma permissão que você precisa para entrar em ordem, 
+    se quiser enviar mensagens.
+    
+    Se você estiver sob os Produtos, Messenger e configurações aqui à esquerda.
+
+    Desloque-se para a revisão da aplicação para o Messenger. 
+    O Pages_messaging é o direito que você precisa obter.
+    Este é o direito de acessar e enviar mensagens em nome da página.
+    E para obtê-lo, você precisará adicionar alguns detalhes. 
+    Eu vou te mostrar em um dos futuros vídeos, como fazer isso.
+
+    Além disso, antes de enviar, precisamos adicionar informações sobre o aplicativo.
+
+    Vamos adicionar a imagem de bots, o ícone, a categoria e o link da política de privacidade.
+
+    4:45
+    Tudo isso precisa ser configurado, se quisermos que o envio seja concluído. 
+    Não se preocupe, nós fazemos tudo juntos, ok?
+
+    1) Candidate-se ao direito pages_messaging. Para obtê-los, você precisará fornecer informações extras.
+
+    2) Adicione informações básicas sobre seu aplicativo e adicione um link de política de privacidade.
+
+         https://www.iubenda.com
+         When you click the Start generating button, this popup will open. Select Facebook app, then enter your Bots name and Click start generating.
+         almir.devapp@gmail.com
+         https://www.iubenda.com/en/flow/2099343
+
+    3) Envie a solicitação e faça uma verificação comercial ou individual, se necessário.
+
+    4) Depois de enviar seu aplicativo para análise, o Facebook pode solicitar que você confirme
+    sua identidade como empresa ou como indivíduo. Para isso, eles enviarão um alerta para sua 
+    Caixa de entrada do App Dashboard.
+    O alerta conterá um link que inicia o processo de verificação.
+
+    * Aula 25 concluída em 18/12 às 14:45
+
+
+
+

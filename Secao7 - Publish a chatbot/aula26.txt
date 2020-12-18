@@ -5,3 +5,8 @@
     O único direito que realmente precisamos fazer para o nosso Chatbot funcionar é o direito de pages_messaging.
     O Pages_messaging permite que nosso aplicativo envie e receba mensagens usando a página do Facebook.
     Sem isso, nosso bot não pode enviar mensagens. 
+
+    Para fazer isso, vá em Produtos, Messenger, Configurações. E role até o App Review for Messenger.
+    Aqui está o nosso direito. O Pages_messaging permite que nosso aplicativo envie e receba mensagens usando a página do Facebook.
+
+    * Aula 26 concluída em 18/12 às 16:03

@@ -1,0 +1,12 @@
+/*
+    Initial project in Node.js
+
+    https://github.com/jbergant/chatbot-facebook-v2-start.git
+    https://www.npmjs.com/package/dialogflow
+*/
+
+    rever 4:01
+
+    Tarefa - Criar uma nova página e um novo aplicativo....
+
+    * Aula 32 concluída em 18/12 às 18:17

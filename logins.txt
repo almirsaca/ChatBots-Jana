@@ -15,6 +15,12 @@ Itaborai1187@87
 ------------------------------------------------
 
 /*
+	conta do Gerenciador de Negócios
+*/
+Empresa : MartinelliBots
+email : almir.devapp@gmail.com
+
+/*
 	CONTA DEV 2
 /*
 
@@ -39,3 +45,22 @@ https://dialogflow.cloud.google.com/#/login
 almir developer
 login conta do google -> almir.devapp@gmail.com
 ------------------------------------------------
+/*
+	Facebook dev
+*/
+
+https://developers.facebook.com/
+
+------------------------------------------------
+
+/*
+	Heroku
+*/
+
+https://www.heroku.com/
+almir.martinelli@gmail.com
+Itaborai1187@87
+
+
+
+

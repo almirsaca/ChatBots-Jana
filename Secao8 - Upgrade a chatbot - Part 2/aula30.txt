@@ -1,0 +1,53 @@
+/*
+    Introduction to part 2
+
+    recursos
+
+    https://developers.facebook.com/docs/messenger-platform
+    https://openweathermap.org/api
+    https://cloud.google.com/maps-platform/
+    https://developer.twitter.com/en/docs
+    https://developers.pinterest.com/
+    https://www.heroku.com/
+    https://cloud.google.com/dialogflow/docs/
+
+*/
+
+    *** Mas, para fazer ótimos bots, você precisa ser flexível.
+
+    Você quer ter as ferramentas, que lhe dão a possibilidade 
+    de fazer o que quiser. Não apenas adicione respostas rápidas e botões.
+
+    Você precisa ser capaz de adicionar novos recursos, conectar-se a 
+    diferentes provedores de API, armazenar e recuperar dados de um 
+    banco de dados, controlar o comportamento do usuário, armazenar 
+    preferências, armazenar histórico de bate-papo e assim por diante.
+    Mas nada disso pode ser feito sem fazer alguma codificação.
+
+    O que estou tentando dar a você é uma base de código da qual você 
+    pode começar e a introdução adequada sobre como fazer as coisas 
+    da maneira mais simples e eficaz possível.
+
+    Muitos dos meus alunos já solicitaram uma introdução para atualizar bots.
+
+    Por isso, na segunda parte do curso, mostrarei como conectar o bot 
+    a um aplicativo personalizado, no qual você pode adicionar funcionalidades extras.
+
+    NodeJs
+    Heroku
+
+    Começaremos com o código pré-escrito, meu código, o código que eu estendi de uma biblioteca do Facebook.
+
+    E agora o que faremos é adicionar outra instância.
+    Este será o nosso aplicativo, aplicativo que vamos escrever e hospedar em Heroku.
+    Este aplicativo será o meio de comunicacao entre usuario e o dialogflow.
+    Neste aplicativo você pode fazer o que quiser. Você pode consultar, procurar 
+    dados no banco de dados (como procurar um produto específico) ou salvar
+    dados no banco de dados (como salvar um pedido ou preferências ou dados da entrevista de emprego)
+    Você também pode chamar outros serviços, quaisquer serviços, como api Weather, API AmazonProducts, 
+    Google maps, Twitter, Pinteres ou qualquer tipo de Api.
+    Você pode conectá-lo ao seu serviço ou fazer qualquer tipo de análise.
+
+    *** Então, você é tão livre quanto a sua imaginação.
+
+    * Aula 30 concluída em 18/12 às 17:28
