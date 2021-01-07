@@ -7,6 +7,11 @@
 
     rever 4:01
 
+    ** Remover o repositório do git do projeto clonado!
+    -> git remote rm origin 
+    -> git remote –v
+
+
     Tarefa - Criar uma nova página e um novo aplicativo....
 
     * Aula 32 concluída em 18/12 às 18:17

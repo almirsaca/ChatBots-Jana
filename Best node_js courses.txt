@@ -1,0 +1,25 @@
+1 - Udemy - The complete node.js developer course (3rd edition) - Andrew Mead
+    * great for beginners
+
+2 - Udemy - NodeJs - The complete guide (incl. mvc, rest apis, graphQL) - Maximillian Schwarzmuller
+
+3 - Udemy - Node.js - The complete guide to build RESTful apis (2018) - Mosh Hamedani
+
+-----
+
+1 - Udemy - Node with React: Fullstack web development - Stephen Grider
+
+    *** Andrew é muito lento, repetitivo e chato. Bom para iniciantes, já que repassa os mesmos conceitos, 
+    repetidamente, para que você não possa esquecê-los, mesmo que queira. Maximillian o torna mais interessante, 
+    mais prático com o porquê de usar para o quê também, com detalhes completos. Não sou um falante nativo de inglês, 
+    mas para mim a voz maximilliana é mais compreensível do que a de Andrew
+
+-----
+
+*** I found Jonas Schmedtmann's course "Node.js, Express, Mongo DB & More: The Complete Bootcamp 2020" 
+to be the most comprehensive and advanced. His coverage of error handling, Mongo DB, Pug templates, 
+middleware, and security is excellent. No web sockets.
+
+    -- O curso node js de Jonas schemdtmann é incrivelmente incrível. Sua explicação se encaixa muito 
+    bem em minha mente e é completa. É o único curso de que você precisa para o desenvolvimento de back-end. 
+    Os slides e as aulas teóricas fazem um trabalho muito bom, explicando. Não tenho palavras para elogiar o curso dele

@@ -45,6 +45,7 @@ https://dialogflow.cloud.google.com/#/login
 almir developer
 login conta do google -> almir.devapp@gmail.com
 ------------------------------------------------
+
 /*
 	Facebook dev
 */
@@ -61,6 +62,14 @@ https://www.heroku.com/
 almir.martinelli@gmail.com
 Itaborai1187@87
 
+------------------------------------------------
 
+/*
+	Git
+*/
 
+https://github.com/git
+user almirsaca
+almir.martinelli@gmail.com
+Itaborai1187@87
 
