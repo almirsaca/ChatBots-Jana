@@ -73,3 +73,11 @@ user almirsaca
 almir.martinelli@gmail.com
 Itaborai1187@87
 
+------------------------------------------------
+
+/* 
+	Analise de aplicativo
+*/
+
+	TechTalk foi enviado por Almir Devapp e está agora aguardando análise. 
+	Acesse a aba Análise do aplicativo para obter detalhes adicionais ou cancelar seu envio.
