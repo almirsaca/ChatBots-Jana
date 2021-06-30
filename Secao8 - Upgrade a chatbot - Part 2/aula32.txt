@@ -8,10 +8,21 @@
     rever 4:01
 
     ** Remover o repositório do git do projeto clonado!
+    ** Nós vamos empurrar para Heroku, não para o GitHub.
     -> git remote rm origin 
     -> git remote –v
 
 
     Tarefa - Criar uma nova página e um novo aplicativo....
+
+    Bem, vamos criar outro aplicativo de teste e outra página de teste, onde criaremos a atualização do nosso bot ao vivo.
+    Não mostrarei neste vídeo como criar uma página ou como criar um aplicativo novamente, pois já fizemos isso no início do curso. Eu estarei esperando aqui.
+    E quando você voltar, vamos configurar o aplicativo juntos.
+    Então, depois que esse vídeo parar, vá e crie uma nova página e crie um novo aplicativo.
+    Vamos precisar deles para o nosso bot de teste.
+    Mas isso não é obrigatório. Estou fazendo isso porque o SmartBabe é ao vivo.
+    Criar um novo aplicativo é opcional. Espero que você não fique confuso por causa dessa etapa.
+    Você ainda pode trabalhar com o aplicativo existente e o bot existente.
+    Estou criando um novo, para que o antigo não pare de funcionar, porque o nó. js app ainda não está funcionando. OK?
 
     * Aula 32 concluída em 18/12 às 18:17

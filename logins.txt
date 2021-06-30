@@ -81,3 +81,12 @@ Itaborai1187@87
 
 	TechTalk foi enviado por Almir Devapp e está agora aguardando análise. 
 	Acesse a aba Análise do aplicativo para obter detalhes adicionais ou cancelar seu envio.
+
+	18/12/2020
+
+	Os resultados da Análise do Aplicativo para TechTalk estão agora disponíveis. 
+	Outras ações podem ser necessárias antes que seu aplicativo possa ser publicado. 
+	Vá para a página Solicitação atual sob Análise do aplicativo no seu Painel de 
+	Aplicativos para ver os resultados completos e responder qualquer pergunta pendente.
+
+	18/12/2020

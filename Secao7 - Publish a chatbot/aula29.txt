@@ -2,4 +2,6 @@
     Submit for review / publish the chatbot on Messenger
 */
 
+    Instruções para tornar publico o bot em 3:06
+
     * Aula 29 concluída em 18/12 às 17:03
