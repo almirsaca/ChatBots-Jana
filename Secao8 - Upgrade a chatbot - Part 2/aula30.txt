@@ -15,6 +15,9 @@
 
     *** Mas, para fazer ótimos bots, você precisa ser flexível.
 
+    Podemos usar outro mecanismo do Chatbot como o Chatfuel, 
+    o Microsoft Bot Framework, o Pandorabots ou qualquer outro.
+
     Você quer ter as ferramentas, que lhe dão a possibilidade 
     de fazer o que quiser. Não apenas adicione respostas rápidas e botões.
 

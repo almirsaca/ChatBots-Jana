@@ -2,4 +2,8 @@
     Heroku, GIT and Node.js    
 */
 
+    https://www.heroku.com/
+    https://nodejs.org/en/
+    https://www.atlassian.com/git/tutorials/install-git
+
     * Aula 31 concluída em 18/12 às 18:05
